@@ -2,8 +2,12 @@
 
 # CONSEN
 Coordinated Open Neural Space of European info-services e-Centres Net
-
 FP6-2002-IST-1 - 2.3.1.9 Networked businesses and governments. Integrated Project
+
+Private ServerName: COOPEU.COM
+IP addresses: 188.138.88.59
+CPU	AMD Opteron 3280 8-Core. RAM	8+8 GB
+RAID1 HD	2000 GB SATA 3,5" 7.200 rpm
 
 DEBIAN 10.12 Linux 10 (buster)
 Apache/2.4.38 (Debian)
@@ -16,7 +20,6 @@ Ruby 3.1.1p18 [x86_64-linux]
 Rails 7.0.2.3
 Bundler version 2.3.11
 Tailwind v3.0.23
-
 
 00) Credentials encrypting variables
 01) Git config SSH_Key Initial commit
