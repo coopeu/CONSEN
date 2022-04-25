@@ -20,10 +20,13 @@ Ruby 3.1.1p18 [x86_64-linux]
 Rails 7.0.2.3
 Bundler version 2.3.11
 Tailwind v3.0.23
+Hotwire: Turbo 7.1.0
 
 00) Credentials encrypting variables
 01) Git config SSH_Key Initial commit
 02) HTML Head tags
 03) Partials split
-
-1) Turbo 
+040) Turbo Drive accelerates links and form submissions by negating the need for full page reloads.
+041) Turbo Frames decompose pages into independent contexts, which scope navigation and can be lazily loaded.
+042) Turbo Streams deliver page changes over WebSocket, SSE or in response to form submissions using just HTML and a set of CRUD-like actions.
+043) Turbo Native lets your majestic monolith form with seamless transitions between web and native sections.
