@@ -22,7 +22,7 @@ Bundler version 2.3.11
 Tailwind v3.0.23
 Hotwire: Turbo 7.1.0
 
-00) Credentials encrypting variables
+00) Credentials edit encrypting envitonmrnt variables
 01) Git config SSH_Key Initial commit
 02) HTML Head tags
 03) Partials split
