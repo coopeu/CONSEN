@@ -1,4 +1,4 @@
-Rails 7 + Hotwire + Stimulus
+# Rails 7 + Hotwire + Stimulus + Tailwind
 
 # CONSEN
 Coordinated Open Neural Space of European info-services e-Centres Net
@@ -10,6 +10,7 @@ Apache/2.4.38 (Debian)
 MariaDB 10.3.34
 Phusion Passenger(R) 6.0.13
 Certbot 1.26.0 (LetsEncrypt)
+Personalisation .bash_profile. Alias commands
 Rvm 1.29.12 (latest)
 Ruby 3.1.1p18 [x86_64-linux]
 Rails 7.0.2.3
