@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  get 'page/home'
+  
+  resources :rooms do 
+    resources :messages
+  end
   resources :users
 
   get '/page/turbo_frame_form' => 'page#turbo_frame_form', as: 'turbo_frame_form'

@@ -22,10 +22,15 @@ Bundler version 2.3.11
 Tailwind v3.0.23
 Hotwire: Turbo 7.1.0
 
+000) Hostname, Set local time UTC, Secure SSL, Apache-Passenger-LetsEncript 
 00) Credentials edit encrypting envitonmrnt variables
-01) Git config SSH_Key Initial commit
-02) HTML Head tags
-03) Partials split
+01) Git init, SSH_Key, config, add, commit, push.
+02) HTML Head metatags: charset, http-equiv, keywords, viewport, description, author, title.
+03) Partials split and render: Head, Topnavbar, Footer.
+04) Helpers: distance_of_time_in_words
+
+
+# CHAT (rooms and messages)
 040) Turbo Drive accelerates links and form submissions by negating the need for full page reloads.
 041) Turbo Frames decompose pages into independent contexts, which scope navigation and can be lazily loaded.
 042) Turbo Streams deliver page changes over WebSocket, SSE or in response to form submissions using just HTML and a set of CRUD-like actions.
