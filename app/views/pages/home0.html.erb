@@ -1,0 +1,43 @@
+<div>
+  <h1 class="font-bold text-4xl text-teal017">Page#home</h1>
+  <p>Find me in app/views/pages/home.html.erb</p>
+  <p data-controller="hello"></p>
+</div>
+<div data-controller="clipboard">
+  PIN: <input data-clipboard-target="source" type="text" value="1234" readonly>
+  <button data-action="clipboard#copy" class="btn-teal">Copy to Clipboard</button>
+</div>
+
+  <h1 class="font-bold text-2xl mt-3">Example: Copy To Clipboard</h1>
+  <div data-controller="clipboard">
+    PIN: <input data-clipboard-target="source" type="text" value="1234" readonly>
+    <button data-action="clipboard#copy">Copy to Clipboard</button>
+  </div>
+  More than one instance of the clipboard controller on the page
+  <div data-controller="clipboard">
+    PIN: <input data-clipboard-target="source" type="text" value="5678" readonly>
+    <button data-action="clipboard#copy">Copy to Clipboard</button>
+  </div>
+  Use other HTML elements like link and textarea (instead of button and input)
+  <div data-controller="clipboard">
+    PIN: <textarea data-clipboard-target="source" readonly>3737</textarea>
+    <a href="#" data-action="clipboard#copy" class="clipboard-button">Copy to Clipboard</a>
+  </div>
+
+    <h1 class="text-green-500 text-2xl md:text-3xl lg:text-4xl font-bold p-4">Tailwind Navigation Toolbar</h1>
+  
+
+  <div><%= link_to "go to users directory", users_path %></div>
+  
+<h1>This is home</h1>
+
+<%= turbo_frame_tag 'anyframe' do %>        
+  <div>
+      <h2>Home view</h2>
+      <%= form_with scope: :any, url: turbo_frame_submit_path, local: true do |form| %>
+          <%= form.label :anynumber, 'Type an integer (odd or even)', 'class' => 'my-0  d-inline'  %>
+          <%= form.text_field :anynumber, type: 'number', 'required' => 'true', 'value' => "#{local_assigns[:anynumber] || 0}",  'aria-describedby' => 'anynumber' %>
+          <%= form.submit 'Submit this number', 'id' => 'submit-number' %>
+      <% end %>
+  <div>
+<% end %>
