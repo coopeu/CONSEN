@@ -1,4 +1,3 @@
-# Rails 7 + Hotwire + Stimulus + Tailwind
 
 # CONSEN
 Coordinated Open Neural Space of European info-services e-Centres Net
@@ -28,6 +27,7 @@ Hotwire: Turbo 7.1.0
 02) HTML Head metatags: charset, http-equiv, keywords, viewport, description, author, title.
 03) Partials split and render: Head, Topnavbar, Footer.
 04) Helpers: distance_of_time_in_words
+05) Tailwind colors erratic error showing / not showing 
 
 
 # CHAT (rooms and messages)
@@ -35,3 +35,4 @@ Hotwire: Turbo 7.1.0
 041) Turbo Frames decompose pages into independent contexts, which scope navigation and can be lazily loaded.
 042) Turbo Streams deliver page changes over WebSocket, SSE or in response to form submissions using just HTML and a set of CRUD-like actions.
 043) Turbo Native lets your majestic monolith form with seamless transitions between web and native sections.
+
