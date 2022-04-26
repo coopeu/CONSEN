@@ -28,9 +28,10 @@ Hotwire: Turbo 7.1.0
 02) HTML Head metatags: charset, http-equiv, keywords, viewport, description, author, title.
 03) Partials split and render: Head, Topnavbar, Footer.
 04) Helpers: distance_of_time_in_words
+05) config/tailwind_config.js classes extended rails tailwindcss:build
 
 
-# CHAT (rooms and messages)
+# XAT (rooms and messages)
 040) Turbo Drive accelerates links and form submissions by negating the need for full page reloads.
 041) Turbo Frames decompose pages into independent contexts, which scope navigation and can be lazily loaded.
 042) Turbo Streams deliver page changes over WebSocket, SSE or in response to form submissions using just HTML and a set of CRUD-like actions.

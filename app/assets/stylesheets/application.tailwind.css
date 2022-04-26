@@ -31,16 +31,12 @@ turbo-frame:nth-child(even) .table {
 .title-2:sm { @apply text-xl font-bold;}
 .title-3 {  @apply text-3xl font-bold;} 
 .title-3:sm { @apply text-2xl font-bold;}
-.title-icon-1 { @apply text-xl font-bold text-teal017;}
-.title-icon-1:sm { @apply text-lg font-bold text-teal017;}
 .btn-teal-xs { @apply bg-teal-300 text-xs font-bold p-2 border-2;}
 .btn-teal-xs:hover { @apply text-white bg-teal-600 text-xs font-bold p-2 border-2; }
 .btn-teal { @apply m-4 text-sm bg-teal-300 px-3 py-2 border-teal-500; }
 .txt-shadow-1 { text-shadow: 2px 2px 2px #fff, 3px 3px 3px #006c6c;}
 .txt-shadow-2 { text-shadow: 1px 1px 1px #fff, 1px 1px 1px #006c6c;}
 .section {  @apply w-full p-6;}
-.section-title {  @apply w-48 mx-auto pt-6 border-b-2 border-orange-500 text-center text-2xl text-blue-700; }
-.section-subtitle {  @apply p-2 text-center text-lg text-gray-700; }
 .aspect-16x9 { padding-bottom: 56.25%; }
 
 
