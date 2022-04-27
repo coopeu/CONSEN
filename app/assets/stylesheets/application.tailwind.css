@@ -31,9 +31,9 @@ turbo-frame:nth-child(even) .table {
 .title-2:sm { @apply text-xl font-bold;}
 .title-3 {  @apply text-3xl font-bold;} 
 .title-3:sm { @apply text-2xl font-bold;}
-.btn-teal-xs { @apply bg-teal-300 text-xs font-bold p-2 border-2;}
+.btn-teal-xs { @apply bg-teal-300 text-xs font-bold p-2 border-1;}
 .btn-teal-xs:hover { @apply text-white bg-teal-600 text-xs font-bold p-2 border-2; }
-.btn-teal { @apply m-4 text-sm bg-teal-300 px-3 py-2 border-teal-500; }
+.btn-teal { @apply m-4 text-sm bg-teal-300 px-3 py-2 border-teal-500 rounded-lg;}
 .txt-shadow-1 { text-shadow: 2px 2px 2px #fff, 3px 3px 3px #006c6c;}
 .txt-shadow-2 { text-shadow: 1px 1px 1px #fff, 1px 1px 1px #006c6c;}
 .section {  @apply w-full p-6;}

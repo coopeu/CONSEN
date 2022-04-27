@@ -1,0 +1,10 @@
+<%# app/views/quotes/index.html.erb %>
+
+<main class="container">
+  <div class="header">
+    <h1 class='title-2 mb-2 text-teal-600'>Quotes</h1>
+    <%= link_to "New quote", new_quote_path, class: "btn-teal" %>
+  </div>
+
+  <%= render @quotes %>
+</main>
