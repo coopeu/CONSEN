@@ -21,20 +21,24 @@ Bundler version 2.3.11
 Tailwind v3.0.23
 Hotwire: Turbo 7.1.0
 
-000) Hostname, Set local time UTC, Secure SSL, Apache-Passenger-LetsEncript 
-00) Credentials edit encrypting envitonmrnt variables
-01) Git init, SSH_Key, config, add, commit, push.
-02) HTML Head metatags: charset, http-equiv, keywords, viewport, description, author, title.
-03) Partials split and render: Head, Topnavbar, Footer.
-04) Helpers: distance_of_time_in_words
-05) Tailwind config/tailwind_config.js classes extended rails tailwindcss:build
-06) Simple_form & Simple_form_tailwindcss install-config
+# 0) INSTALL-SETUP-CONFIG
+0.0) Hostname, Set local time UTC, Secure SSL, Apache-Passenger-LetsEncript 
+0.1) Credentials edit encrypting envitonmrnt variables
+0.2) Git init, SSH_Key, config, add, commit, push.
+0.3) HTML Head metatags: charset, http-equiv, keywords, viewport, description, author, title.
+0.4) Partials split and render: Head, Topnavbar, Footer.
+0.5) Helpers: distance_of_time_in_words
+0.6) Tailwind config/tailwind_config.js classes extended rails tailwindcss:build
+0.7) Simple_form & Simple_form_tailwindcss install-config
 
-# XAT (rooms and messages)
-7.1) Turbo Drive accelerates links and form submissions by negating the need for full page reloads.
-7.2) Turbo Frames decompose pages into independent contexts, which scope navigation and can be lazily loaded.
-7.3) Turbo Streams deliver page changes over WebSocket, SSE or in response to form submissions using just HTML and a set of CRUD-like actions.
-7.4) Turbo Native lets your majestic monolith form with seamless transitions between web and native sections.
+# 1) XAT (rooms and messages)
+1.1) Turbo Drive accelerates links and form submissions by negating the need for full page reloads.
 
-# QUOTES (turbo-stimulus example)
-8.1) CRUD
+1.2) Turbo Frames decompose pages into independent contexts, which scope navigation and can be lazily loaded.
+
+1.3) Turbo Streams deliver page changes over WebSocket, SSE or in response to form submissions using just HTML and a set of CRUD-like actions.
+
+1.4) Turbo Native lets your majestic monolith form with seamless transitions between web and native sections.
+
+# 2) QUOTES (turbo-stimulus example)
+2.1) CRUD
