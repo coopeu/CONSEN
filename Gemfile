@@ -33,6 +33,7 @@ gem "simple_form"
 gem 'simple_form-tailwind'
 gem "tailwindcss-rails", "~> 2.0"
 gem "faker", "~> 2.20"
+gem "devise"
 
 
 group :development do

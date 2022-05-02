@@ -1,10 +1,10 @@
 <%# app/views/quotes/show.html.erb %>
 
 <main class="container">
-  <%= link_to sanitize("&larr; Back to quotes"), quotes_path %>
-  <div class="header">
-    <h1>
-      <%= @quote.name %>
+  <%= link_to sanitize("&larr; Back to quotes"), quotes_path, class:'btn-back' %>
+  <div class="header my-14">
+    <h1 class='title-1 text-4xl text-teal-700 font-extrabold'>
+      <i><%= @quote.name %></i>
     </h1>
   </div>
 </main>

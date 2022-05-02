@@ -1,11 +1,21 @@
 <%# app/views/quotes/_quote.html.erb %>
 
-<div class="quote">
-  <%= link_to quote.name, quote_path(quote) %>
-  <div class="quote__actions">
-    <%= button_to "Delete", quote_path(quote), method: :delete, class: "btn btn--light" %>
-    <%= link_to "Edit", edit_quote_path(quote), class: "btn btn--light" %>
+<%= turbo_frame_tag quote do %>
+<div class="quote relative w-full flex flex-wrap justify-between mb-2 border-b-2 border-teal-200">
+  <%= link_to truncate(quote.name, length:66), 
+                quote_path(quote), 
+                class:'font-bold',
+                data: { turbo_frame: "_top" } %>
+  <div class="quote__actions flex flex-column pb-2">
+    <%= button_to "Delete", 
+                quote_path(quote), 
+                method: :delete, 
+                form: { data: { turbo_frame: "_top" } },                
+                class: "btn-teal-xs" %>
+    <%= link_to "Edit", 
+                edit_quote_path(quote), 
+                class: "btn-teal-xs" %>
   </div>
 </div>
-
+<% end %>
 
