@@ -28,7 +28,7 @@ Hotwire: Turbo 7.1.0
 
 ## 0) INSTALL-SETUP-CONFIG
 0. Hostname, Set local time UTC, Secure SSL, Apache-Passenger-LetsEncript 
-1. Credentials edit encrypting envirotment variables
+1. Credentials edit encrypting environment variables
 2. Git init, SSH_Key, config, add, commit, push.
 3. HTML Head metatags: charset, http-equiv, keywords, viewport, description, author, title.
 4. Partials split and render: Head, Topnavbar, Footer.
